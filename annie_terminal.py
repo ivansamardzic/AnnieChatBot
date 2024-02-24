@@ -65,11 +65,11 @@ response = co.chat(message=init_message, connectors=[{"id": "web-search"}])
 history.append({"role": "USER", "message": init_message})
 history.append({"role": "CHATBOT", "message": response.text})
 
-print(init_message)
-print(response.text, "\n")
+# print(init_message)
+# print(response.text, "\n")
 
 
-print("ready")
+print("Ready?")
 
 message = ""
 while message != "end":
